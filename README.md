@@ -4,8 +4,8 @@
 ```
 * Sat Jun 26 2021 AKotov-dev <alex_q_2000> 31.0.2-0.mrx8
 - new version: 31.0.2 (testing only)
-- fixed "TCP keep alive" https://github.com/nmeum/android-tools/issues/28
-- fixed "mke2fs location" (Thanks to Morgan Leijström, mga#29157)
+- fixed "Reduce TCP keepalive interval" https://github.com/nmeum/android-tools/issues/28
+- fixed "fastboot-android fail to use mke2fs" (Thanks to Morgan Leijström, mga#29157)
 - add android-tools LICENSE
 
 * Tue May 04 2021 daviddavid <daviddavid> 31.0.0p1-1.mga8
