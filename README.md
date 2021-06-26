@@ -3,7 +3,6 @@
 
 ```* Sat Jun 26 2021 AKotov-dev <alex_q_2000> 31.0.2-0.mrx8
 - new version: 31.0.2 (testing only)
-  https://github.com/AKotov-dev/android-tools/tree/platform-tools-31.0.2/RPM-for-testing
 - fixed "TCP keep alive" https://github.com/nmeum/android-tools/issues/28
 - fixed "mke2fs location" (Thanks to Morgan Leijström, mga#29157)
 - add android-tools LICENSE
