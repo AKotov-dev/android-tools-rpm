@@ -1,6 +1,7 @@
 # android-tools-rpm
 %changelog
-* Sat Jun 26 2021 AKotov-dev <alex_q_2000> 31.0.2-0.mrx8
+
+```* Sat Jun 26 2021 AKotov-dev <alex_q_2000> 31.0.2-0.mrx8
 - new version: 31.0.2 (testing only)
   https://github.com/AKotov-dev/android-tools/tree/platform-tools-31.0.2/RPM-for-testing
 - fixed "TCP keep alive" https://github.com/nmeum/android-tools/issues/28
@@ -16,3 +17,4 @@
   permissions (Thanks to Alex Kotov, mga#28860)
 - rename fastboot-android to fastboot like it is originally (mga#24139)
 - branch android-tools in backports repo
+```
