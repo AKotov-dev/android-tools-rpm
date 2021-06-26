@@ -18,3 +18,7 @@
 - rename fastboot-android to fastboot like it is originally (mga#24139)
 - branch android-tools in backports repo
 ```
+##Description:
+These packages are built based on `android-tools.spec` from the package: https://distrib-coffee.ipsl.jussieu.fr/pub/linux/Mageia/distrib/8/SRPMS/core/backports_testing/android-tools-31.0.0p1-1.mga8.src.rpm
+
+After installation, run: `usermod -aG usb $LOGNAME; reboot`
