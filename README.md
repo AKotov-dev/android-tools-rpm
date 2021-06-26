@@ -1,4 +1,4 @@
-# android-tools rpm-package's for testing
+# android-tools rpm-packages for testing
 %changelog
 
 ```* Sat Jun 26 2021 AKotov-dev <alex_q_2000> 31.0.2-0.mrx8
