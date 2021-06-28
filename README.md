@@ -2,6 +2,12 @@
 %changelog
 
 ```
+* Mon Jun 28 2021 AKotov-dev <alex_q_2000> 31.0.2-0.mrx8
+- new version: 31.0.2 (testing only 2)
+- adding the adbusers group (Thanks to Morgan Leijström, mga#28860)
+- replace 51-android.rules (20210501) from:
+  https://github.com/M0Rf30/android-udev-rules/releases/tag/20210501
+
 * Sat Jun 26 2021 AKotov-dev <alex_q_2000> 31.0.2-0.mrx8
 - new version: 31.0.2 (testing only)
 - fixed "Reduce TCP keepalive interval" https://github.com/nmeum/android-tools/issues/28
@@ -23,5 +29,6 @@ These packages are built based on `android-tools.spec` from the package:
 https://distrib-coffee.ipsl.jussieu.fr/pub/linux/Mageia/distrib/8/SRPMS/core/backports_testing/android-tools-31.0.0p1-1.mga8.src.rpm
 
 Unoffical CMake-based build system for android command line utilities: https://github.com/nmeum/android-tools
+android-udev-rules: https://github.com/M0Rf30/android-udev-rules/blob/master/51-android.rules
 
-After installation, run: `usermod -aG usb $LOGNAME; reboot`
+After installation, run: `usermod -aG adbusers $LOGNAME; reboot`
