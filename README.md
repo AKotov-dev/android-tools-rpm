@@ -13,6 +13,7 @@
 - fixed "Reduce TCP keepalive interval" https://github.com/nmeum/android-tools/issues/28
 - fixed "fastboot-android fail to use mke2fs" (Thanks to Morgan Leijström, mga#29157)
 - add android-tools LICENSE
+- add BuildRequires: pkgconfig(fmt)
 
 * Tue May 04 2021 daviddavid <daviddavid> 31.0.0p1-1.mga8
 + Revision: 1721285
