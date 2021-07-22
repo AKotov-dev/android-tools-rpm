@@ -1,7 +1,14 @@
 # android-tools rpm-packages for testing
 %changelog
-
 ```
+* Thu Jul 22 2021 AKotov-dev <alex_q_2000> 31.0.2-0.mrx8
+- final version: 31.0.2 (testing only 4)
+- Disable installation of license file; "vendor/core/NOTICE is gone in 31.0.2 #30"
+- Remove zsh completions for now; "zsh completions are broken #38"
+- Fix build with gcc 11; "Build failure with gcc 11 #16"
+- Upgrade to platform-tools-31.0.2:
+  https://github.com/nmeum/android-tools/releases/tag/31.0.2
+
 * Mon Jul 19 2021 AKotov-dev <alex_q_2000> 31.0.2-0.mrx8
 - new version: 31.0.2 (testing only 3)
 - remove BuildRequires: pkgconfig(fmt); "does not compile with fmt >= 8 #44"
