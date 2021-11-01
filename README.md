@@ -1,6 +1,13 @@
 # android-tools rpm-packages for testing
 %changelog
 ```
+* Mon Nov 01 2021 AKotov-dev <alex_q_2000> 31.0.3-1.mga8
+- v31.0.3 for Mageia-8
+
+* Sat Sep 25 2021 AKotov-dev <alex_q_2000> 31.0.2-1.mga8
+- 51-android.rules in android-udev-rules package
+- v31.0.2 for Mageia-8
+
 * Thu Jul 22 2021 AKotov-dev <alex_q_2000> 31.0.2-0.mrx8
 - final version: 31.0.2 (testing only 4)
 - Disable installation of license file; "vendor/core/NOTICE is gone in 31.0.2 #30"
