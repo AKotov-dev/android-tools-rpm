@@ -1,6 +1,11 @@
 # android-tools rpm-packages for testing
 %changelog
 ```
+* Thu Jan 13 2022 AKotov-dev <alex_q_2000> 31.0.3p1-1.mga8
+- Fixes boringssl build failure with GCC 11.2.1
+- Add boot.img manipulation tools
+- Add Dynamic Partition Tools
+
 * Mon Nov 01 2021 AKotov-dev <alex_q_2000> 31.0.3-1.mga8
 - v31.0.3 for Mageia-8
 
