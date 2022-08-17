@@ -1,6 +1,11 @@
 # android-tools rpm-packages for testing
 %changelog
 ```
+* Wed Aug 17 2022 AKotov-dev <alex_q_2000> 31.0.3p2-1.mga8
+- Added e2fsdroid and ext2simg
+- Fixed build with GCC 12
+- Bumped minimum required CMake version to 3.13
+
 * Thu Jan 13 2022 AKotov-dev <alex_q_2000> 31.0.3p1-1.mga8
 - Fixes boringssl build failure with GCC 11.2.1
 - Add boot.img manipulation tools
