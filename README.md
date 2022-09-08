@@ -62,7 +62,7 @@ Unoffical CMake-based build system for android command line utilities: https://g
 git clone --recurse-submodules https://github.com/nmeum/android-tools.git
 cd ./android-tools && mkdir ./build && cd ./build && cmake .. && make
 ```
-android-udev-rules:  
-https://github.com/M0Rf30/android-udev-rules/blob/master/51-android.rules  
+android-udev-rules: https://github.com/M0Rf30/android-udev-rules  
+  
 
 **After installation, run:** `usermod -aG adbusers $LOGNAME; reboot`
