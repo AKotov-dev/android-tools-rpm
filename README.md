@@ -1,4 +1,4 @@
-# android-tools rpm-packages for testing
+# android-tools & android-udev-rules rpm-packages
 %changelog
 ```
 * Wed Aug 17 2022 AKotov-dev <alex_q_2000> 31.0.3p2-1.mga8
