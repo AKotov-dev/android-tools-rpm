@@ -1,6 +1,9 @@
 # android-tools & android-udev-rules rpm-packages
 %changelog
 ```
+* Sun Sep 25 2022 AKotov-dev <alex_q_2000> 33.0.3-1.mga8
+- Upgrade to platform-tools-33.0.3
+
 * Wed Aug 17 2022 AKotov-dev <alex_q_2000> 31.0.3p2-1.mga8
 - Added e2fsdroid and ext2simg
 - Fixed build with GCC 12
