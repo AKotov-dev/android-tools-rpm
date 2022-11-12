@@ -1,6 +1,12 @@
 # android-tools & android-udev-rules rpm-packages
 %changelog
 ```
+* Sat Nov 12 2022 AKotov-dev <alex_q_2000> 33.0.3p1-5.mga9
+- Fixed mkbootimg
+- Added avbtool
+- Fix for compatibility with Linux >= 6.0
+- Removal of several obsolete patches
+
 * Sun Sep 25 2022 AKotov-dev <alex_q_2000> 33.0.3-1.mga8
 - Upgrade to platform-tools-33.0.3
 
